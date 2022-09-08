@@ -117,7 +117,7 @@ textarea:focus {
 }
 
 #first {
-  /* position: relative; */
+  position: relative;
   float: left;
   margin: auto;
   height: 256px;
@@ -125,7 +125,7 @@ textarea:focus {
 }
 
 #second {
-  /* position: relative; */
+  position: relative;
   float: left;
   margin: auto;
   text-align: left;
