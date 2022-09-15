@@ -8,7 +8,6 @@ function validateForm() {
   text: 'Name must be filled out'
 }).then((result) => {
     $('#name').focus();
-    $('#name').focus();
     });
     return false;
   } else if (email == "") {
@@ -17,8 +16,7 @@ function validateForm() {
   title: 'Oops...',
   text: 'Email must be filled out'
 }).then((result) => {
-    $('#name').focus();
-    $('#name').focus();
+    $('#email').focus();
     });
     return false;
   }
